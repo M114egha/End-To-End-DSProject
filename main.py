@@ -1,6 +1,12 @@
 from src.datascience import logger
+from src.datascience.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
 
-print("Before logging")
-logger.info("Starting the logging test from main.py")
-logger.info("This is a test log entry to check the logging setup.")
-print("After logging")
+STAGE_NAME="Data IngestionStage"
+try:
+    logger.info(f">>>>>Stage  {STAGE_NAME} started <<<<<")
+    data_ingestion=DataIngestionTrainingPipeline()
+    data_ingestion.initiate_data_ingestion()       
+    logger.info(f">>>>> stage {STAGE_NAME} completed<<<<")
+except Exception as e:
+    logger.exception(e)
+    raise e
