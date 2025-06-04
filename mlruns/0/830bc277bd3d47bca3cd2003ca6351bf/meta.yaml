@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Desktop/MLFlow/End-To-End-DSProject/mlruns/0/830bc277bd3d47bca3cd2003ca6351bf/artifacts
+end_time: 1749032603762
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 830bc277bd3d47bca3cd2003ca6351bf
+run_name: powerful-wolf-169
+run_uuid: 830bc277bd3d47bca3cd2003ca6351bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749032591493
+status: 3
+tags: []
+user_id: HP
