@@ -20,6 +20,7 @@
 
 
 Project-Architecture
+```
 End-To-End-DSProject/
 │
 ├── .github/
@@ -65,3 +66,5 @@ End-To-End-DSProject/
         │
         └── constants/
             └── __init__.py
+
+```
