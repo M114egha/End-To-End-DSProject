@@ -24,45 +24,44 @@ End-To-End-DSProject/
 │
 ├── .github/
 │   └── workflows/
-│       └── .gitkeep             # Placeholder to keep directory in Git
+│       └── .gitkeep
 │
 ├── config/
-│   └── config.yaml              # Main configuration file
+│   └── config.yaml
 │
-├── params.yaml                  # Hyperparameters/config
-├── schema.yaml                  # Schema for validation or target column info
-│
-├── main.py                      # Entry point to run the pipeline
-├── Dockerfile                   # For Docker containerization
-├── setup.py                     # For packaging the project
+├── params.yaml
+├── schema.yaml
+├── main.py
+├── Dockerfile
+├── setup.py
 │
 ├── research/
-│   └── reasearch.ipynb          # For EDA / experimentation
+│   └── reasearch.ipynb
 │
 ├── templates/
-│   └── index.html               # Template for web interface (Flask/FastAPI)
+│   └── index.html
 │
-├── src/
-│   └── datascience/
-│       ├── __init__.py
-│       │
-│       ├── components/          # Data ingestion, transformation, etc.
-│       │   └── __init__.py
-│       │
-│       ├── utils/               # Helper functions
-│       │   ├── __init__.py
-│       │   └── common.py
-│       │
-│       ├── config/              # Config management logic
-│       │   ├── __init__.py
-│       │   └── configuration.py
-│       │
-│       ├── pipeline/            # Stage-wise pipeline execution
-│       │   └── __init__.py
-│       │
-│       ├── entity/              # Configuration data classes
-│       │   ├── __init__.py
-│       │   └── config_entity.py
-│       │
-│       └── constants/           # Constants (e.g., schema paths)
-│           └── __init__.py
+└── src/
+    └── datascience/
+        ├── __init__.py
+        │
+        ├── components/
+        │   └── __init__.py
+        │
+        ├── utils/
+        │   ├── __init__.py
+        │   └── common.py
+        │
+        ├── config/
+        │   ├── __init__.py
+        │   └── configuration.py
+        │
+        ├── pipeline/
+        │   └── __init__.py
+        │
+        ├── entity/
+        │   ├── __init__.py
+        │   └── config_entity.py
+        │
+        └── constants/
+            └── __init__.py
